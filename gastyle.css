@@ -1,0 +1,194 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.logo-container p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.header-image {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.header-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+#gardens-for-events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+#gardens-for-events li {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.image-slider {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.image-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+#gardens-for-events li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#gardens-for-events li address {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.filters {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.filter-by {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-by select {
+  padding: 0.5em;
+  margin-right: 1em;
+}
+
+#sort-btn {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+#sort-btn:hover {
+  background-color: #23527c;
+}
+
+
+.testimonials {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.testimonials h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.testimonial span {
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #gardens-for-events {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #gardens-for-events {
+        grid-template-columns: 1fr;
+    }
+}

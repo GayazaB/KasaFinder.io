@@ -1,0 +1,287 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #0097A7;
+    color: #fff;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 160px;
+    height: 150px;
+border-radius: 50%;
+}
+
+.title h1 {
+    margin: 0;
+ font-size: 50px;
+}
+
+.title p {
+    margin: 0;
+    font-size: 36px;
+}
+
+.school-finder {
+   	justify-content: center;
+	max-width: 950%;
+    	margin: 20px auto;
+   	 padding: 20px;
+   	 background-color: #f9f9f9;
+    	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.school-address {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.school-search {
+    width:  70%;
+    padding: 10px;
+    margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.image-slider {
+    height:200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.image-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.school-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.school-list li {
+     flex-basis: 20%;
+    margin: 10px;
+  
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.gayaza {
+    background-color: #ffcccc;
+}
+
+.kasangati {
+    background-color: #ccffcc;
+}
+
+.kiteezi {
+    background-color: #ccccff;
+}
+
+.manyangwa {
+    background-color: #ffccff;
+}
+.masooli{
+    background-color: #ffcccc;
+}
+
+.katadde {
+    background-color: #ccffcc;
+}
+
+.buwambo {
+    background-color: #ccccff;
+}
+
+.wampewo {
+    background-color: #ffccff;
+}
+.kiti {
+    background-color: #ffcccc;
+}
+
+.kampala {
+    background-color: #ccffcc;
+}
+
+.kyebando {
+    background-color: #ccccff;
+}
+
+.lusanja {
+    background-color: #ffccff;
+}
+.nalya {
+    background-color: #ffcccc;
+}
+
+.kawempe {
+    background-color: #ccffcc;
+}
+
+.kalerwe {
+    background-color: #ccccff;
+}
+
+.kyabakadde {
+    background-color: #ffccff;
+}
+.maganjo {
+    background-color: #ffcccc;
+}
+
+.ntinda{
+    background-color: #ccffcc;
+}
+
+.bukoto {
+    background-color: #ccccff;
+}
+
+.kiwatule {
+    background-color: #ffccff;
+}
+.kabanyoro{
+    background-color: #ffcccc;
+}
+
+.bukemba {
+    background-color: #ccffcc;
+}
+
+.bulindo{
+    background-color: #ccccff;
+}
+
+.seeta{
+    background-color: #ffccff;
+}
+.nakwero {
+    background-color: #ffcccc;
+}
+
+.kabubbu {
+    background-color: #ccffcc;
+}
+
+.mpererwe{
+    background-color: #ccccff;
+}
+
+.bulamu {
+    background-color: #ffccff;
+}
+
+.kiwenda {
+    background-color: #ccccff;
+}
+
+.kijabijjo {
+    background-color: #ffccff;
+}
+.busukuma{
+    background-color: #ffcccc;
+}
+
+.kalagi{
+    background-color: #ccffcc;
+}
+
+.buwaate{
+    background-color: #ccccff;
+}
+
+.nsasa{
+    background-color: #ffccff;
+}
+.luteete {
+    background-color: #ffcccc;
+}
+
+.gita {
+    background-color: #ccffcc;
+}
+
+.makenke{
+    background-color: #ccccff;
+}
+
+.matuga {
+    background-color: #ffccff;
+}
+.jokolera {
+    background-color: #ccccff;
+}
+
+.kagoma {
+    background-color: #ffccff;
+}
+.kyankima{
+    background-color: #ffcccc;
+}
+
+.kazinga {
+    background-color: #ccffcc;
+}
+
+.kira {
+    background-color: #ccccff;
+}
+
+.namugongo {
+    background-color: #ffccff;
+}
+.busukuma {
+    background-color: #ffcccc;
+}
+
+.nabutaka {
+    background-color: #ccffcc;
+}
+
+.zirobwe {
+    background-color: #ccccff;
+}
+
+.texas {
+    background-color: #ffccff;
+}
+.nakasajja {
+    background-color: #ffccff;
+}
+.kyetume {
+    background-color: #ccccff;
+}
+
+.buyinja {
+    background-color: #ffccff;
+}
+.kyambogo {
+    background-color: #ffcccc;
+}
+
+.magere {
+    background-color: #ffccff;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    clear: both;
+}
